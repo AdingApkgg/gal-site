@@ -1,2 +1,5 @@
-# gal-site
-galgame资源索引站
+# GalGameSite
+
+GalGame资源索引站
+
+最新网址：https://gal.saop.cc/
