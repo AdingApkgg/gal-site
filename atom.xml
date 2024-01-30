@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>GGS</title>
+  <title>GalGameSite</title>
   <icon>https://gal.saop.cc/icon.png</icon>
-  <subtitle>GalGameSite</subtitle>
+  <subtitle>GGS</subtitle>
   <link href="https://gal.saop.cc/atom.xml" rel="self"/>
   
   <link href="https://gal.saop.cc/"/>
