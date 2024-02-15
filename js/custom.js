@@ -1,1 +1,35 @@
-!function(){var n=new Date("2024/01/27 21:52:00");function m(){var m=new Date;m.setTime(m.getTime()+250),days=(m-n)/1e3/60/60/24,dnum=Math.floor(days),hours=(m-n)/1e3/60/60-24*dnum,hnum=Math.floor(hours),1===String(hnum).length&&(hnum="0"+hnum),minutes=(m-n)/1e3/60-1440*dnum-60*hnum,mnum=Math.floor(minutes),1===String(mnum).length&&(mnum="0"+mnum),seconds=(m-n)/1e3-86400*dnum-3600*hnum-60*mnum,snum=Math.round(seconds),1===String(snum).length&&(snum="0"+snum),document.getElementById("timeDate").innerHTML="本站居然运行了&nbsp"+dnum+"&nbsp天&nbsp",document.getElementById("times").innerHTML=hnum+"&nbsp小时&nbsp"+mnum+"&nbsp分&nbsp"+snum+"&nbsp秒！"}m(),setInterval(m,1e3)}();
+// 页脚运行时长
+!(function () {
+  /** 计时起始时间，自行修改 **/
+  var start = new Date("2024/01/27 21:52:00");
+
+  function update() {
+    var now = new Date();
+    now.setTime(now.getTime() + 250);
+    days = (now - start) / 1000 / 60 / 60 / 24;
+    dnum = Math.floor(days);
+    hours = (now - start) / 1000 / 60 / 60 - 24 * dnum;
+    hnum = Math.floor(hours);
+    if (String(hnum).length === 1) {
+      hnum = "0" + hnum;
+    }
+    minutes = (now - start) / 1000 / 60 - 24 * 60 * dnum - 60 * hnum;
+    mnum = Math.floor(minutes);
+    if (String(mnum).length === 1) {
+      mnum = "0" + mnum;
+    }
+    seconds =
+      (now - start) / 1000 - 24 * 60 * 60 * dnum - 60 * 60 * hnum - 60 * mnum;
+    snum = Math.round(seconds);
+    if (String(snum).length === 1) {
+      snum = "0" + snum;
+    }
+    document.getElementById("timeDate").innerHTML =
+      "本站居然运行了&nbsp" + dnum + "&nbsp天&nbsp";
+    document.getElementById("times").innerHTML =
+      hnum + "&nbsp小时&nbsp" + mnum + "&nbsp分&nbsp" + snum + "&nbsp秒！";
+  }
+
+  update();
+  setInterval(update, 1000);
+})();
