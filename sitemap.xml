@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gal.saop.cc/p/2873/</loc>
+    
+    <lastmod>2024-02-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/p/25058/</loc>
     
     <lastmod>2024-02-21</lastmod>
@@ -1161,13 +1170,6 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/categories/Artroid/</loc>
-    <lastmod>2024-02-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gal.saop.cc/categories/Other/</loc>
     <lastmod>2024-02-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -1175,7 +1177,7 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/categories/Tyranor/</loc>
+    <loc>https://gal.saop.cc/categories/Artroid/</loc>
     <lastmod>2024-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1190,6 +1192,13 @@
   
   <url>
     <loc>https://gal.saop.cc/categories/Android/</loc>
+    <lastmod>2024-02-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/categories/Tyranor/</loc>
     <lastmod>2024-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
