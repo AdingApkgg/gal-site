@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gal.saop.cc/p/1091/</loc>
+    
+    <lastmod>2024-03-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/p/54358/</loc>
     
     <lastmod>2024-02-26</lastmod>
@@ -579,6 +588,13 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/tags/%E6%84%9F%E6%82%9F/</loc>
+    <lastmod>2024-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/tags/%E6%8B%94%E4%BD%9C/</loc>
     <lastmod>2024-03-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -615,6 +631,13 @@
   
   <url>
     <loc>https://gal.saop.cc/tags/%E6%A0%A1%E5%9B%AD/</loc>
+    <lastmod>2024-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E6%AD%A3%E5%89%A7/</loc>
     <lastmod>2024-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -664,6 +687,13 @@
   
   <url>
     <loc>https://gal.saop.cc/tags/%E7%94%9C%E8%9C%9C/</loc>
+    <lastmod>2024-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E7%94%9F%E5%91%BD/</loc>
     <lastmod>2024-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1146,6 +1176,13 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/tags/%E6%9E%AB%E6%B1%9F%E6%B1%89%E5%8C%96%E7%BB%84/</loc>
+    <lastmod>2024-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/tags/%E6%9E%AB%E7%AC%9B%E6%B1%89%E5%8C%96%E7%BB%84/</loc>
     <lastmod>2024-03-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -1286,7 +1323,21 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/tags/AKABEiSOFT3/</loc>
+    <lastmod>2024-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/tags/Hello-World/</loc>
+    <lastmod>2024-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/AKABEiSOFT3%E7%A4%BE/</loc>
     <lastmod>2024-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
