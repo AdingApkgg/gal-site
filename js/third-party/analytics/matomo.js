@@ -1,3 +1,1 @@
-/* global CONFIG */
-if(CONFIG.matomo.enable){window._paq=window._paq||[];const e=window._paq;
-/* tracker methods like "setCustomDimension" should be called before "trackPageView" */e.push(["trackPageView"]),e.push(["enableLinkTracking"]);const t=CONFIG.matomo.server_url;e.push(["setTrackerUrl",t+"matomo.php"]),e.push(["setSiteId",CONFIG.matomo.site_id]);const a=document,o=a.createElement("script"),s=a.getElementsByTagName("script")[0];o.async=!0,o.src=t+"matomo.js",s.parentNode.insertBefore(o,s)}
+if(CONFIG.matomo.enable){window._paq=window._paq||[];const e=window._paq;e.push(["trackPageView"]),e.push(["enableLinkTracking"]);const t=CONFIG.matomo.server_url;e.push(["setTrackerUrl",t+"matomo.php"]),e.push(["setSiteId",CONFIG.matomo.site_id]);const a=document,o=a.createElement("script"),s=a.getElementsByTagName("script")[0];o.async=!0,o.src=t+"matomo.js",s.parentNode.insertBefore(o,s)}
