@@ -105,15 +105,15 @@
   </entry>
   <entry>
     <title>公告／発表／announcement</title>
-    <url>/p/6993/</url>
-    <content><![CDATA[<h2 id="招工具人"><a class="markdownIt-Anchor" href="#招工具人"></a> 招工具人</h2>
-<p>招几个肯<strong>无偿用爱发电</strong>的小伙伴…</p>
+    <url>/p/announcement/</url>
+    <content><![CDATA[<h2 id="招募伙伴"><a class="markdownIt-Anchor" href="#招募伙伴"></a> 招募伙伴</h2>
+<p>招募几名想<strong>无偿用爱发电</strong>的小伙伴…</p>
 <ul>
-<li>校对 数名</li>
 <li>写手 数名</li>
+<li>校对 数名</li>
 </ul>
-<p>校对要求：能细心的<code>校验文章内容</code>、资源链接与标签的正确性…<br />
-写手要求：会寻找资源链接、图片、描述文本与写 <code>Markdown</code> 文档等…</p>
+<p>写手要求：会寻找资源链接、图片、描述文本与写 <code>Markdown</code> 文档等…<br />
+校对要求：能细心的<code>校验文章内容</code>、资源链接与标签的正确性…</p>
 <h2 id="交流社群"><a class="markdownIt-Anchor" href="#交流社群"></a> 交流社群</h2>
 <ul>
 <li>TG：<span class="exturl" data-url="aHR0cHM6Ly90Lm1lL0Z1bGxEaXZlU0FP">FullDiveSAO<i class="fa fa-external-link-alt"></i></span></li>
@@ -613,7 +613,7 @@
   </entry>
   <entry>
     <title>你好，世界！／こんにちは、世界！／Hello, World!</title>
-    <url>/p/16107/</url>
+    <url>/p/hello-world/</url>
     <content><![CDATA[<p><img data-src="/img/hello-world_index.webp" alt="" /></p>
 <p>欢迎来到<span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>！这是您的第一篇帖子。查看<span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">文档<i class="fa fa-external-link-alt"></i></span>以获取更多信息。如果您在使用Hexo时遇到任何问题，您可以在<span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">故障排除页面<i class="fa fa-external-link-alt"></i></span>找到答案，或者您可以在<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>上向我提问。</p>
 <span id="more"></span>
