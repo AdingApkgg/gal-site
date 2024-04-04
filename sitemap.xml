@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gal.saop.cc/p/6993/</loc>
+    
+    <lastmod>2024-04-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/about/</loc>
     
     <lastmod>2024-04-04</lastmod>
@@ -468,6 +477,13 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/tags/%E5%85%AC%E5%91%8A/</loc>
+    <lastmod>2024-04-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/tags/%E5%86%92%E9%99%A9/</loc>
     <lastmod>2024-04-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -896,6 +912,13 @@
   
   <url>
     <loc>https://gal.saop.cc/tags/%E7%97%85%E5%A8%87/</loc>
+    <lastmod>2024-04-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E7%99%BA%E8%A1%A8/</loc>
     <lastmod>2024-04-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1805,6 +1828,13 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/tags/announcement/</loc>
+    <lastmod>2024-04-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/tags/FrontWing%EF%BC%88%E5%89%8D%E7%BF%BC%E7%A4%BE%EF%BC%89/</loc>
     <lastmod>2024-04-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -1884,6 +1914,13 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/categories/Other/</loc>
+    <lastmod>2024-04-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/categories/ONS/</loc>
     <lastmod>2024-04-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -1892,13 +1929,6 @@
   
   <url>
     <loc>https://gal.saop.cc/categories/Artroid/</loc>
-    <lastmod>2024-04-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/categories/Other/</loc>
     <lastmod>2024-04-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
