@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://gal.saop.cc/p/45436/</loc>
+    <loc>https://gal.saop.cc/about/</loc>
     
     <lastmod>2024-04-06</lastmod>
     
@@ -11,9 +11,9 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/about/</loc>
+    <loc>https://gal.saop.cc/p/45436/</loc>
     
-    <lastmod>2024-04-05</lastmod>
+    <lastmod>2024-04-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
