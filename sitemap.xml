@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gal.saop.cc/about/</loc>
+    
+    <lastmod>2024-04-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/p/64512/</loc>
     
     <lastmod>2024-04-13</lastmod>
@@ -14,15 +23,6 @@
     <loc>https://gal.saop.cc/p/37056/</loc>
     
     <lastmod>2024-04-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/about/</loc>
-    
-    <lastmod>2024-04-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2155,14 +2155,14 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/categories/Tyranor/</loc>
+    <loc>https://gal.saop.cc/categories/Artroid/</loc>
     <lastmod>2024-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/categories/Artroid/</loc>
+    <loc>https://gal.saop.cc/categories/Tyranor/</loc>
     <lastmod>2024-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

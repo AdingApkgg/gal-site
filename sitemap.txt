@@ -1,6 +1,6 @@
+https://gal.saop.cc/about/
 https://gal.saop.cc/p/64512/
 https://gal.saop.cc/p/37056/
-https://gal.saop.cc/about/
 https://gal.saop.cc/p/announcement/
 https://gal.saop.cc/p/63577/
 https://gal.saop.cc/vercel.json
@@ -291,8 +291,8 @@ https://gal.saop.cc/categories/PC/
 https://gal.saop.cc/categories/KRKR/
 https://gal.saop.cc/categories/Other/
 https://gal.saop.cc/categories/ONS/
-https://gal.saop.cc/categories/Tyranor/
 https://gal.saop.cc/categories/Artroid/
+https://gal.saop.cc/categories/Tyranor/
 https://gal.saop.cc/categories/Android/
 https://gal.saop.cc/categories/OST/
 https://gal.saop.cc/categories/PSP/
