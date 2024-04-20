@@ -1,3 +1,4 @@
+https://gal.saop.cc/p/6977/
 https://gal.saop.cc/p/19213/
 https://gal.saop.cc/p/announcement/
 https://gal.saop.cc/p/25624/
@@ -10,7 +11,6 @@ https://gal.saop.cc/p/37056/
 https://gal.saop.cc/p/63577/
 https://gal.saop.cc/vercel.json
 https://gal.saop.cc/p/48468/
-https://gal.saop.cc/p/6977/
 https://gal.saop.cc/p/45436/
 https://gal.saop.cc/p/36400/
 https://gal.saop.cc/p/52145/
@@ -347,8 +347,7 @@ https://gal.saop.cc/categories/PC/
 https://gal.saop.cc/categories/KRKR/
 https://gal.saop.cc/categories/Other/
 https://gal.saop.cc/categories/ONS/
-https://gal.saop.cc/categories/Android/
 https://gal.saop.cc/categories/Artroid/
 https://gal.saop.cc/categories/Tyranor/
-https://gal.saop.cc/categories/OST/
+https://gal.saop.cc/categories/Android/
 https://gal.saop.cc/categories/PSP/
