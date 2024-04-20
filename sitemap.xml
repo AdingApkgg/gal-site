@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gal.saop.cc/p/47594/</loc>
+    
+    <lastmod>2024-04-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/p/6977/</loc>
     
     <lastmod>2024-04-20</lastmod>
@@ -59,15 +68,6 @@
     <loc>https://gal.saop.cc/p/20454/</loc>
     
     <lastmod>2024-04-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/p/47594/</loc>
-    
-    <lastmod>2024-04-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
