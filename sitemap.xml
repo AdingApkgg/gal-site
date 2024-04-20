@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gal.saop.cc/about/</loc>
+    
+    <lastmod>2024-04-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/p/60360/</loc>
+    
+    <lastmod>2024-04-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/p/56532/</loc>
     
     <lastmod>2024-04-20</lastmod>
@@ -66,15 +84,6 @@
   
   <url>
     <loc>https://gal.saop.cc/p/1089/</loc>
-    
-    <lastmod>2024-04-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/about/</loc>
     
     <lastmod>2024-04-18</lastmod>
     
@@ -1019,6 +1028,13 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/tags/%E6%96%87%E8%89%BA/</loc>
+    <lastmod>2024-04-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/tags/%E6%97%A5%E5%B8%B8/</loc>
     <lastmod>2024-04-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -1132,6 +1148,13 @@
   
   <url>
     <loc>https://gal.saop.cc/tags/%E7%83%AD%E8%A1%80/</loc>
+    <lastmod>2024-04-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E7%86%9F%E8%82%89/</loc>
     <lastmod>2024-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1307,6 +1330,13 @@
   
   <url>
     <loc>https://gal.saop.cc/tags/%E8%89%B9%E7%8C%AB/</loc>
+    <lastmod>2024-04-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E8%89%BA%E6%9C%AF/</loc>
     <lastmod>2024-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1733,6 +1763,13 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/tags/%E8%B7%B3%E7%A5%A8%E7%8E%8B/</loc>
+    <lastmod>2024-04-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/tags/%E8%BF%91%E6%9C%88%E7%A4%BE/</loc>
     <lastmod>2024-04-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -1838,6 +1875,13 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/tags/%E4%B8%9A%E7%95%8C%E9%BB%8E%E6%98%8E/</loc>
+    <lastmod>2024-04-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/tags/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/</loc>
     <lastmod>2024-04-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -1881,6 +1925,13 @@
   
   <url>
     <loc>https://gal.saop.cc/tags/%E5%B9%BC%E3%81%AA%E3%81%98%E3%81%BF/</loc>
+    <lastmod>2024-04-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E6%9C%89%E7%94%9F%E4%B9%8B%E5%B9%B4/</loc>
     <lastmod>2024-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
