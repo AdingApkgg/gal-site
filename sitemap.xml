@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/p/5280/</loc>
+    
+    <lastmod>2024-05-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/p/43876/</loc>
     
     <lastmod>2024-05-24</lastmod>
@@ -1104,6 +1113,13 @@
   
   <url>
     <loc>https://gal.saop.cc/tags/%E5%A6%B9%E6%8E%A7/</loc>
+    <lastmod>2024-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E5%A6%B9%E7%B3%BB/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
