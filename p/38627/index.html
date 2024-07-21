@@ -49,13 +49,13 @@
 <meta property="article:tag" content="妹控">
 <meta property="article:tag" content="2024年">
 <meta property="article:tag" content="妹">
+<meta property="article:tag" content="甜作">
+<meta property="article:tag" content="绿茶汉化组">
+<meta property="article:tag" content="熊喵守护协会">
 <meta property="article:tag" content="萌妹">
 <meta property="article:tag" content="大小姐">
 <meta property="article:tag" content="学姐">
 <meta property="article:tag" content="兄控">
-<meta property="article:tag" content="甜作">
-<meta property="article:tag" content="绿茶汉化组">
-<meta property="article:tag" content="熊喵守护协会">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/galgame/img/mashiro.webp">
 
@@ -326,11 +326,11 @@
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/ONS/" itemprop="url" rel="index"><span itemprop="name">ONS</span></a>
+          <a href="/categories/KRKR/" itemprop="url" rel="index"><span itemprop="name">KRKR</span></a>
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/KRKR/" itemprop="url" rel="index"><span itemprop="name">KRKR</span></a>
+          <a href="/categories/ONS/" itemprop="url" rel="index"><span itemprop="name">ONS</span></a>
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
@@ -480,26 +480,26 @@
               <a href="/tags/%E5%A6%B9%E6%8E%A7/" rel="tag"># 妹控</a>
               <a href="/tags/2024%E5%B9%B4/" rel="tag"># 2024年</a>
               <a href="/tags/%E5%A6%B9/" rel="tag"># 妹</a>
+              <a href="/tags/%E7%94%9C%E4%BD%9C/" rel="tag"># 甜作</a>
+              <a href="/tags/%E7%BB%BF%E8%8C%B6%E6%B1%89%E5%8C%96%E7%BB%84/" rel="tag"># 绿茶汉化组</a>
+              <a href="/tags/%E7%86%8A%E5%96%B5%E5%AE%88%E6%8A%A4%E5%8D%8F%E4%BC%9A/" rel="tag"># 熊喵守护协会</a>
               <a href="/tags/%E8%90%8C%E5%A6%B9/" rel="tag"># 萌妹</a>
               <a href="/tags/%E5%A4%A7%E5%B0%8F%E5%A7%90/" rel="tag"># 大小姐</a>
               <a href="/tags/%E5%AD%A6%E5%A7%90/" rel="tag"># 学姐</a>
               <a href="/tags/%E5%85%84%E6%8E%A7/" rel="tag"># 兄控</a>
-              <a href="/tags/%E7%94%9C%E4%BD%9C/" rel="tag"># 甜作</a>
-              <a href="/tags/%E7%BB%BF%E8%8C%B6%E6%B1%89%E5%8C%96%E7%BB%84/" rel="tag"># 绿茶汉化组</a>
-              <a href="/tags/%E7%86%8A%E5%96%B5%E5%AE%88%E6%8A%A4%E5%8D%8F%E4%BC%9A/" rel="tag"># 熊喵守护协会</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/p/3699/" rel="prev" title="纯白交响曲 SANA EDITION／ましろ色シンフォニー SANA EDITION／Mashiroiro Symphony HD -Sana Edition-">
-                  <i class="fa fa-angle-left"></i> 纯白交响曲 SANA EDITION／ましろ色シンフォニー SANA EDITION／Mashiroiro Symphony HD -Sana Edition-
+                <a href="/p/6688/" rel="prev" title="Angel Beats! -1st beat-／天使的脉动／天使的心跳／围殴天使／神仙打架／仙人跳／Angel Beast／エンジェルビーツ!／AB!">
+                  <i class="fa fa-angle-left"></i> Angel Beats! -1st beat-／天使的脉动／天使的心跳／围殴天使／神仙打架／仙人跳／Angel Beast／エンジェルビーツ!／AB!
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/p/24138/" rel="next" title="美少女万华镜异闻 雪女／美少女万華鏡異聞 雪おんな／美少女万華鏡６／Biman 6／美少女万拔镜／撸出血万华镜／美少女万花筒／特别篇">
-                  美少女万华镜异闻 雪女／美少女万華鏡異聞 雪おんな／美少女万華鏡６／Biman 6／美少女万拔镜／撸出血万华镜／美少女万花筒／特别篇 <i class="fa fa-angle-right"></i>
+                <a href="/p/3699/" rel="next" title="纯白交响曲 SANA EDITION／ましろ色シンフォニー SANA EDITION／Mashiroiro Symphony HD -Sana Edition-">
+                  纯白交响曲 SANA EDITION／ましろ色シンフォニー SANA EDITION／Mashiroiro Symphony HD -Sana Edition- <i class="fa fa-angle-right"></i>
                 </a>
             </div>
           </div>
@@ -550,6 +550,39 @@
 <script async src="https://registry.npmmirror.com/weblive2d/latest/files/js/autoload.js"></script>
 <p><span id="timeDate">天数载入中..</span><span id="times">时分秒载入中..</span></p>
 <script>
+// Aplayer默认关闭歌词
+function removelrc() {
+  // 检测是否存在歌词按钮
+  const lrcIcon = document.querySelector(".aplayer-icon-lrc");
+  if (!lrcIcon) {
+    return;
+  }
+
+  // 触发以后立刻移除监听
+  observer.disconnect();
+
+  // 稍作延时保证触发函数时存在按钮
+  setTimeout(() => {
+    // 以触发按钮的方式隐藏歌词，防止在点击显示歌词按钮时需要点击两次才能出现的问题
+    lrcIcon.click();
+  }, 1);
+}
+
+const observer = new MutationObserver((mutationsList, observer) => {
+  for (let mutation of mutationsList) {
+    if (mutation.type === "childList") {
+      removelrc();
+    }
+  }
+});
+
+const observerConfig = {
+  childList: true, // 观察子节点的变化
+  subtree: true, // 观察所有后代节点的变化
+};
+
+observer.observe(document, observerConfig); // 开始观察document节点的变化
+
 // 页脚运行时长
 !(function () {
   /** 计时起始时间，自行修改 **/
@@ -603,6 +636,11 @@ copyrightAuthor.addEventListener("mouseout", (event) => {
   copyrightAuthor.style.textDecoration = "none";
 });
 </script>
+<link rel="stylesheet" href="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css">
+<div class="aplayer" data-id="8464409595" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-order="random" data-volume="0.3" data-mutex="true" data-listMaxHeight="36vh"></div>
+<script async src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js"></script>
+<script async src="https://cdn.staticfile.net/meting/1.2.0/Meting.min.js"></script>
+
 
     </div>
   </footer>

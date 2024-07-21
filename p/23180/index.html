@@ -41,10 +41,10 @@
 <meta property="article:tag" content="恋爱">
 <meta property="article:tag" content="奇幻">
 <meta property="article:tag" content="2020年">
-<meta property="article:tag" content="纯爱">
-<meta property="article:tag" content="悬疑">
 <meta property="article:tag" content="拔作">
+<meta property="article:tag" content="纯爱">
 <meta property="article:tag" content="催泪">
+<meta property="article:tag" content="悬疑">
 <meta property="article:tag" content="ωstar">
 <meta property="article:tag" content="オメガスター">
 <meta property="article:tag" content="动态CG">
@@ -478,10 +478,10 @@
               <a href="/tags/%E6%81%8B%E7%88%B1/" rel="tag"># 恋爱</a>
               <a href="/tags/%E5%A5%87%E5%B9%BB/" rel="tag"># 奇幻</a>
               <a href="/tags/2020%E5%B9%B4/" rel="tag"># 2020年</a>
-              <a href="/tags/%E7%BA%AF%E7%88%B1/" rel="tag"># 纯爱</a>
-              <a href="/tags/%E6%82%AC%E7%96%91/" rel="tag"># 悬疑</a>
               <a href="/tags/%E6%8B%94%E4%BD%9C/" rel="tag"># 拔作</a>
+              <a href="/tags/%E7%BA%AF%E7%88%B1/" rel="tag"># 纯爱</a>
               <a href="/tags/%E5%82%AC%E6%B3%AA/" rel="tag"># 催泪</a>
+              <a href="/tags/%E6%82%AC%E7%96%91/" rel="tag"># 悬疑</a>
               <a href="/tags/%CF%89star/" rel="tag"># ωstar</a>
               <a href="/tags/%E3%82%AA%E3%83%A1%E3%82%AC%E3%82%B9%E3%82%BF%E3%83%BC/" rel="tag"># オメガスター</a>
               <a href="/tags/%E5%8A%A8%E6%80%81CG/" rel="tag"># 动态CG</a>
@@ -551,6 +551,39 @@
 <script async src="https://registry.npmmirror.com/weblive2d/latest/files/js/autoload.js"></script>
 <p><span id="timeDate">天数载入中..</span><span id="times">时分秒载入中..</span></p>
 <script>
+// Aplayer默认关闭歌词
+function removelrc() {
+  // 检测是否存在歌词按钮
+  const lrcIcon = document.querySelector(".aplayer-icon-lrc");
+  if (!lrcIcon) {
+    return;
+  }
+
+  // 触发以后立刻移除监听
+  observer.disconnect();
+
+  // 稍作延时保证触发函数时存在按钮
+  setTimeout(() => {
+    // 以触发按钮的方式隐藏歌词，防止在点击显示歌词按钮时需要点击两次才能出现的问题
+    lrcIcon.click();
+  }, 1);
+}
+
+const observer = new MutationObserver((mutationsList, observer) => {
+  for (let mutation of mutationsList) {
+    if (mutation.type === "childList") {
+      removelrc();
+    }
+  }
+});
+
+const observerConfig = {
+  childList: true, // 观察子节点的变化
+  subtree: true, // 观察所有后代节点的变化
+};
+
+observer.observe(document, observerConfig); // 开始观察document节点的变化
+
 // 页脚运行时长
 !(function () {
   /** 计时起始时间，自行修改 **/
@@ -604,6 +637,11 @@ copyrightAuthor.addEventListener("mouseout", (event) => {
   copyrightAuthor.style.textDecoration = "none";
 });
 </script>
+<link rel="stylesheet" href="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css">
+<div class="aplayer" data-id="8464409595" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-order="random" data-volume="0.3" data-mutex="true" data-listMaxHeight="36vh"></div>
+<script async src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js"></script>
+<script async src="https://cdn.staticfile.net/meting/1.2.0/Meting.min.js"></script>
+
 
     </div>
   </footer>

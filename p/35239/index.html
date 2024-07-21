@@ -45,8 +45,8 @@
 <meta property="article:tag" content="恋爱">
 <meta property="article:tag" content="2020年">
 <meta property="article:tag" content="纯爱">
-<meta property="article:tag" content="2013年">
 <meta property="article:tag" content="催泪">
+<meta property="article:tag" content="2013年">
 <meta property="article:tag" content="2016年">
 <meta property="article:tag" content="Key">
 <meta property="article:tag" content="键社">
@@ -54,8 +54,8 @@
 <meta property="article:tag" content="致郁">
 <meta property="article:tag" content="感人">
 <meta property="article:tag" content="2012年">
-<meta property="article:tag" content="2010年">
 <meta property="article:tag" content="2009年">
+<meta property="article:tag" content="2010年">
 <meta property="article:tag" content="FD">
 <meta property="article:tag" content="2005年">
 <meta property="article:tag" content="崩坏">
@@ -458,8 +458,8 @@
               <a href="/tags/%E6%81%8B%E7%88%B1/" rel="tag"># 恋爱</a>
               <a href="/tags/2020%E5%B9%B4/" rel="tag"># 2020年</a>
               <a href="/tags/%E7%BA%AF%E7%88%B1/" rel="tag"># 纯爱</a>
-              <a href="/tags/2013%E5%B9%B4/" rel="tag"># 2013年</a>
               <a href="/tags/%E5%82%AC%E6%B3%AA/" rel="tag"># 催泪</a>
+              <a href="/tags/2013%E5%B9%B4/" rel="tag"># 2013年</a>
               <a href="/tags/2016%E5%B9%B4/" rel="tag"># 2016年</a>
               <a href="/tags/Key/" rel="tag"># Key</a>
               <a href="/tags/%E9%94%AE%E7%A4%BE/" rel="tag"># 键社</a>
@@ -467,8 +467,8 @@
               <a href="/tags/%E8%87%B4%E9%83%81/" rel="tag"># 致郁</a>
               <a href="/tags/%E6%84%9F%E4%BA%BA/" rel="tag"># 感人</a>
               <a href="/tags/2012%E5%B9%B4/" rel="tag"># 2012年</a>
-              <a href="/tags/2010%E5%B9%B4/" rel="tag"># 2010年</a>
               <a href="/tags/2009%E5%B9%B4/" rel="tag"># 2009年</a>
+              <a href="/tags/2010%E5%B9%B4/" rel="tag"># 2010年</a>
               <a href="/tags/FD/" rel="tag"># FD</a>
               <a href="/tags/2005%E5%B9%B4/" rel="tag"># 2005年</a>
               <a href="/tags/%E5%B4%A9%E5%9D%8F/" rel="tag"># 崩坏</a>
@@ -533,6 +533,39 @@
 <script async src="https://registry.npmmirror.com/weblive2d/latest/files/js/autoload.js"></script>
 <p><span id="timeDate">天数载入中..</span><span id="times">时分秒载入中..</span></p>
 <script>
+// Aplayer默认关闭歌词
+function removelrc() {
+  // 检测是否存在歌词按钮
+  const lrcIcon = document.querySelector(".aplayer-icon-lrc");
+  if (!lrcIcon) {
+    return;
+  }
+
+  // 触发以后立刻移除监听
+  observer.disconnect();
+
+  // 稍作延时保证触发函数时存在按钮
+  setTimeout(() => {
+    // 以触发按钮的方式隐藏歌词，防止在点击显示歌词按钮时需要点击两次才能出现的问题
+    lrcIcon.click();
+  }, 1);
+}
+
+const observer = new MutationObserver((mutationsList, observer) => {
+  for (let mutation of mutationsList) {
+    if (mutation.type === "childList") {
+      removelrc();
+    }
+  }
+});
+
+const observerConfig = {
+  childList: true, // 观察子节点的变化
+  subtree: true, // 观察所有后代节点的变化
+};
+
+observer.observe(document, observerConfig); // 开始观察document节点的变化
+
 // 页脚运行时长
 !(function () {
   /** 计时起始时间，自行修改 **/
@@ -586,6 +619,11 @@ copyrightAuthor.addEventListener("mouseout", (event) => {
   copyrightAuthor.style.textDecoration = "none";
 });
 </script>
+<link rel="stylesheet" href="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css">
+<div class="aplayer" data-id="8464409595" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-order="random" data-volume="0.3" data-mutex="true" data-listMaxHeight="36vh"></div>
+<script async src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js"></script>
+<script async src="https://cdn.staticfile.net/meting/1.2.0/Meting.min.js"></script>
+
 
     </div>
   </footer>

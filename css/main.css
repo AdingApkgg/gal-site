@@ -1461,7 +1461,7 @@ pre code {
     transition: all 0.2s ease-in-out;
   }
   .links-of-author a::before {
-    background: #ffff8f;
+    background: #ffff4b;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3117,5 +3117,28 @@ header.header {
 @media (min-width: 992px) and (max-width: 991px) {
   .sidebar {
     display: none;
+  }
+}
+.aplayer-list,
+.aplayer-list-index,
+.aplayer-list-title,
+.aplayer-list-author,
+.aplayer-title,
+.aplayer-info,
+.aplayer-music *,
+.aplayer-icon {
+  background: var(--card-bg-color);
+  color: var(--text-color) !important;
+}
+.aplayer-list ol li,
+.aplayer-music {
+  text-align: initial !important;
+}
+@media (max-width: 960px) {
+  .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+    left: -66px !important;
+  }
+  .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+    left: 0 !important;
   }
 }
