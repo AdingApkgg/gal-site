@@ -1,1 +1,360 @@
-(()=>{const e="galSiteCache",t="https://id.v3/",s=()=>caches.match(t).then((e=>e?.json())),n=s=>caches.open(e).then((e=>e.put(t,new Response(JSON.stringify(s)))));self.addEventListener("install",(()=>{self.skipWaiting();s().then((async t=>{if(t&&1!==t.escape){const t=await caches.open(e).then((e=>e.keys())).then((e=>e?.map((e=>e.url))));await caches.delete(e);const s=await f();s.type="escape",s.list=t;(await clients.matchAll()).forEach((e=>e.postMessage(s)))}}))})),self.addEventListener("activate",(e=>e.waitUntil(clients.claim())));const a=(e,t,s,n)=>(n||(n={}),n.cache=t?"no-store":"default",s&&(n.mode="cors",n.credentials="same-origin"),fetch(e,n)),c=e=>{if("localhost"!==e.hostname)for(let t in r){const s=r[t];if(s.match(e))return s}};let r={simple:{match:e=>"gal.saop.cc"===e.host&&e.pathname.match(/\.(woff2|woff|ttf|cur|ico|avif|webp|bmp|svg|raw|png|jpg|jpeg|gif|css|js|json|html|mpv|mp4|mp3|m4a|moc|mtn|xml)$/)}},h=()=>!1;const o=(e,t,s)=>a(e,t,!0,s),i=e=>e.ok||[301,302,307,308].includes(e.status),l=new Map;self.addEventListener("fetch",(t=>{let s=t.request,n=new URL(s.url);if("GET"!==s.method||!s.url.startsWith("http"))return;let r,f=n.hostname+n.pathname+n.search;const u=e=>{t.respondWith(r?e.then((e=>{for(let t of r)t(e.clone())})).catch((e=>{for(let t of r)t(e)})).then((()=>(l.delete(f),e))):e)},p=c(n);if(p){let t=`https://${n.host}${n.pathname}`;t.endsWith("/index.html")&&(t=t.substring(0,t.length-10)),p.search&&(t+=n.search),u(caches.match(t).then((n=>n??o(s,!0).then((s=>{if(i(s)){const n=s.clone();caches.open(e).then((e=>e.put(t,n)))}return s})))))}else{const e=null;u(e?o(s,!1,e):((e,t)=>a(e,!1,h(e),t))(s).catch((e=>new Response(e,{status:499}))))}})),self.addEventListener("message",(e=>{"update"===e.data&&f().then((t=>{t.type="update",e.source.postMessage(t)}))}));const f=async()=>{const a=await o(new Request("/update.json"),!1);if(!i(a))throw`加载 update.json 时遇到异常，状态码：${a.status}`;const c=await a.json(),r=await(e=>s().then((t=>{const{info:s,global:a}=e,c={global:a,local:s[0].version,escape:t?.escape??0};if(!t)return c.escape=1,n(c),{new:c,old:t};let r=new u,h=((e,t,s)=>{for(let n of t){const{version:t,change:a}=n;if(t===s)return!1;if(a)for(let t of a)e.push(new p(t))}return!0})(r,s,t.local);return n(c),h&&(a!==t.global?r.force=!0:r.refresh=!0),{list:r,new:c,old:t}})))(c);if(r.list){const s=await(s=>caches.open(e).then((e=>e.keys().then((n=>Promise.all(n.map((async n=>{const a=n.url;return a!==t&&s.match(a)?(e.delete(n),a):null}))))).then((e=>e.filter((e=>e)))))))(r.list);r.list=s?.length?s:null}return r};function u(){const e=[];this.push=t=>{e.push(t)},this.match=t=>{if(this.force)return!0;if(t=new URL(t),this.refresh)return c(t).clean;for(let s of e)if(s.match(t))return!0;return!1}}function p(e){const t=t=>{const s=e.value;if(Array.isArray(s)){for(let e of s)if(t(e))return!0;return!1}return t(s)};this.match=(()=>{switch(e.flag){case"html":return e=>e.pathname.match(/(\/|\.html)$/);case"end":return e=>t((t=>e.href.endsWith(t)));case"begin":return e=>t((t=>e.pathname.startsWith(t)));case"str":return e=>t((t=>e.href.includes(t)));case"reg":return e=>t((t=>e.href.match(new RegExp(t,"i"))));default:throw`未知表达式：${JSON.stringify(e)}`}})()}})();
+// noinspection JSIgnoredPromiseFromCall
+
+(() => {
+    /** 缓存库名称 */
+    const CACHE_NAME = 'galSiteCache'
+    /** 控制信息存储地址（必须以`/`结尾） */
+    const CTRL_PATH = 'https://id.v3/'
+
+
+
+    /**
+     * 读取本地版本号
+     * @return {Promise<BrowserVersion|undefined>}
+     */
+    const readVersion = () => caches.match(CTRL_PATH).then(response => response?.json())
+    /**
+     * 写入版本号
+     * @param version {BrowserVersion}
+     * @return {Promise<void>}
+     */
+    const writeVersion = version => caches.open(CACHE_NAME)
+        .then(cache => cache.put(CTRL_PATH, new Response(JSON.stringify(version))))
+
+    self.addEventListener('install', () => {
+        self.skipWaiting()
+        const escape = 1
+        if (escape) {
+            readVersion().then(async oldVersion => {
+                // noinspection JSIncompatibleTypesComparison
+                if (oldVersion && oldVersion.escape !== escape) {
+                    const list = await caches.open(CACHE_NAME)
+                        .then(cache => cache.keys())
+                        .then(keys => keys?.map(it => it.url))
+                    await caches.delete(CACHE_NAME)
+                    const info = await updateJson()
+                    info.type = 'escape'
+                    info.list = list
+                    // noinspection JSUnresolvedReference
+                    const clientList = await clients.matchAll()
+                    clientList.forEach(client => client.postMessage(info))
+                }
+            })
+        }
+    })
+
+    // sw 激活后立即对所有页面生效，而非等待刷新
+    // noinspection JSUnresolvedReference
+    self.addEventListener('activate', event => event.waitUntil(clients.claim()))
+
+    /**
+     * 基础 fetch
+     * @param request {Request|string}
+     * @param banCache {boolean} 是否禁用缓存
+     * @param cors {boolean} 是否启用 cors
+     * @param optional {RequestInit?} 额外的配置项
+     * @return {Promise<Response>}
+     */
+    const baseFetcher = (request, banCache, cors, optional) => {
+        if (!optional) optional = {}
+        optional.cache = banCache ? 'no-store' : 'default'
+        if (cors) {
+            optional.mode = 'cors'
+            optional.credentials = 'same-origin'
+        }
+        return fetch(request, optional)
+    }
+
+    /**
+     * 添加 cors 配置请求指定资源
+     * @param request {Request}
+     * @param optional {RequestInit?} 额外的配置项
+     * @return {Promise<Response>}
+     */
+    const fetchWithCache = (request, optional) =>
+        baseFetcher(request, false, isCors(request), optional)
+
+    // noinspection JSUnusedLocalSymbols
+    /**
+     * 添加 cors 配置请求指定资源
+     * @param request {Request}
+     * @param banCache {boolean} 是否禁用 HTTP 缓存
+     * @param optional {RequestInit?} 额外的配置项
+     * @return {Promise<Response>}
+     */
+    const fetchWithCors = (request, banCache, optional) =>
+        baseFetcher(request, banCache, true, optional)
+
+    /**
+     * 判断指定 url 击中了哪一种缓存，都没有击中则返回 null
+     * @param url {URL}
+     */
+    const findCache = url => {
+        if (url.hostname === 'localhost') return
+        for (let key in cacheRules) {
+            const value = cacheRules[key]
+            if (value.match(url)) return value
+        }
+    }
+
+    // noinspection JSFileReferences
+    let cacheRules = {
+simple: {
+match: url =>
+      url.host === "gal.saop.cc" &&
+      url.pathname.match(
+        /\.(woff2|woff|ttf|cur|ico|avif|webp|bmp|svg|raw|png|jpg|jpeg|gif|css|js|json|html|mpv|mp4|mp3|m4a|moc|mtn|xml)$/
+      )}
+}
+
+let isCors = () => false
+let isMemoryQueue = () => false
+const fetchFile = fetchWithCors;
+const getSpareUrls = _ => {}
+
+    // 检查请求是否成功
+    // noinspection JSUnusedLocalSymbols
+    const checkResponse = response => response.ok || [301, 302, 307, 308].includes(response.status)
+
+    /**
+     * 删除指定缓存
+     * @param list 要删除的缓存列表
+     * @return {Promise<string[]>} 删除的缓存的URL列表
+     */
+    const deleteCache = list => caches.open(CACHE_NAME).then(cache => cache.keys()
+        .then(keys => Promise.all(
+            keys.map(async it => {
+                const url = it.url
+                if (url !== CTRL_PATH && list.match(url)) {
+                    // [debug delete]
+                    // noinspection ES6MissingAwait,JSCheckFunctionSignatures
+                    cache.delete(it)
+                    return url
+                }
+                return null
+            })
+        )).then(list => list.filter(it => it))
+    )
+
+    /**
+     * 缓存列表
+     * @type {Map<string, function(any)[]>}
+     */
+    const cacheMap = new Map()
+
+    self.addEventListener('fetch', event => {
+        let request = event.request
+        let url = new URL(request.url)
+        // [blockRequest call]
+        if (request.method !== 'GET' || !request.url.startsWith('http')) return
+        // [modifyRequest call]
+        // [skipRequest call]
+        let cacheKey = url.hostname + url.pathname + url.search
+        let cache
+        if (isMemoryQueue(request)) {
+            cache = cacheMap.get(cacheKey)
+            if (cache) {
+                return event.respondWith(
+                    new Promise((resolve, reject) => {
+                        cacheMap.get(cacheKey).push(arg => arg.body ? resolve(arg) : reject(arg))
+                    })
+                )
+            }
+            cacheMap.set(cacheKey, cache = [])
+        }
+        /** 处理拉取 */
+        const handleFetch = promise => {
+            event.respondWith(
+                cache ? promise.then(response => {
+                    for (let item of cache) {
+                        item(response.clone())
+                    }
+                }).catch(err => {
+                    for (let item of cache) {
+                        item(err)
+                    }
+                }).then(() => {
+                    cacheMap.delete(cacheKey)
+                    return promise
+                }) : promise
+            )
+        }
+        const cacheRule = findCache(url)
+        if (cacheRule) {
+            let key = `https://${url.host}${url.pathname}`
+            if (key.endsWith('/index.html')) key = key.substring(0, key.length - 10)
+            if (cacheRule.search) key += url.search
+            handleFetch(
+                caches.match(key).then(
+                    cache => cache ?? fetchFile(request, true)
+                        .then(response => {
+                            if (checkResponse(response)) {
+                                const clone = response.clone()
+                                caches.open(CACHE_NAME).then(it => it.put(key, clone))
+                                // [debug put]
+                            }
+                            return response
+                        })
+                )
+            )
+        } else {
+            const urls = null
+            if (urls) handleFetch(fetchFile(request, false, urls))
+            // [modifyRequest else-if]
+            else handleFetch(fetchWithCache(request).catch(err => new Response(err, {status: 499})))
+        }
+    })
+
+    self.addEventListener('message', event => {
+        // [debug message]
+        if (event.data === 'update')
+            updateJson().then(info => {
+                info.type = 'update'
+                event.source.postMessage(info)
+            })
+    })
+
+    /**
+     * 根据JSON删除缓存
+     * @returns {Promise<UpdateInfo>}
+     */
+    const updateJson = async () => {
+        /**
+         * 解析elements，并把结果输出到list中
+         * @return boolean 是否刷新全站缓存
+         */
+        const parseChange = (list, elements, ver) => {
+            for (let element of elements) {
+                const {version, change} = element
+                if (version === ver) return false
+                if (change) {
+                    for (let it of change)
+                        list.push(new CacheChangeExpression(it))
+                }
+            }
+            // 跨版本幅度过大，直接清理全站
+            return true
+        }
+        /**
+         * 解析字符串
+         * @return {Promise<{
+         *     list?: VersionList,
+         *     new: BrowserVersion,
+         *     old: BrowserVersion
+         * }>}
+         */
+        const parseJson = json => readVersion().then(oldVersion => {
+            const {info, global} = json
+            /** @type {BrowserVersion} */
+            const newVersion = {global, local: info[0].version, escape: oldVersion?.escape ?? 0}
+            // 新用户和刚进行过逃逸操作的用户不进行更新操作
+            if (!oldVersion) {
+                // noinspection JSValidateTypes
+                newVersion.escape = 1
+                writeVersion(newVersion)
+                return {new: newVersion, old: oldVersion}
+            }
+            let list = new VersionList()
+            let refresh = parseChange(list, info, oldVersion.local)
+            writeVersion(newVersion)
+            // [debug escape]
+            // 如果需要清理全站
+            if (refresh) {
+                if (global !== oldVersion.global) list.force = true
+                else list.refresh = true
+            }
+            return {list, new: newVersion, old: oldVersion}
+        })
+        const response = await fetchFile(new Request('/update.json'), false)
+        if (!checkResponse(response))
+            throw `加载 update.json 时遇到异常，状态码：${response.status}`
+        const json = await response.json()
+        const result = await parseJson(json)
+        if (result.list) {
+            const list = await deleteCache(result.list)
+            result.list = list?.length ? list : null
+        }
+        // noinspection JSValidateTypes
+        return result
+    }
+
+    /**
+     * 版本列表
+     * @constructor
+     */
+    function VersionList() {
+
+        const list = []
+
+        /**
+         * 推送一个表达式
+         * @param element {CacheChangeExpression} 要推送的表达式
+         */
+        this.push = element => {
+            list.push(element)
+        }
+
+        /**
+         * 判断指定 URL 是否和某一条规则匹配
+         * @param url {string} URL
+         * @return {boolean}
+         */
+        this.match = url => {
+            if (this.force) return true
+            // noinspection JSValidateTypes
+            url = new URL(url)
+            if (this.refresh) {
+                // noinspection JSCheckFunctionSignatures
+                return findCache(url).clean
+            }
+            else {
+                for (let it of list) {
+                    if (it.match(url)) return true
+                }
+            }
+            return false
+        }
+
+    }
+
+    // noinspection SpellCheckingInspection
+    /**
+     * 缓存更新匹配规则表达式
+     * @param json 格式{"flag": ..., "value": ...}
+     * @see https://kmar.top/posts/bcfe8408/#23bb4130
+     * @constructor
+     */
+    function CacheChangeExpression(json) {
+        /**
+         * 遍历所有value
+         * @param action {function(string): boolean} 接受value并返回bool的函数
+         * @return {boolean} 如果value只有一个则返回`action(value)`，否则返回所有运算的或运算（带短路）
+         */
+        const forEachValues = action => {
+            const value = json.value
+            if (Array.isArray(value)) {
+                for (let it of value) {
+                    if (action(it)) return true
+                }
+                return false
+            } else return action(value)
+        }
+        const getMatch = () => {
+            switch (json['flag']) {
+                case 'html':
+                    return url => url.pathname.match(/(\/|\.html)$/)
+                case 'end':
+                    return url => forEachValues(value => url.href.endsWith(value))
+                case 'begin':
+                    return url => forEachValues(value => url.pathname.startsWith(value))
+                case 'str':
+                    return url => forEachValues(value => url.href.includes(value))
+                case 'reg':
+                    // noinspection JSCheckFunctionSignatures
+                    return url => forEachValues(value => url.href.match(new RegExp(value, 'i')))
+                default: throw `未知表达式：${JSON.stringify(json)}`
+            }
+        }
+        this.match = getMatch()
+    }
+})()

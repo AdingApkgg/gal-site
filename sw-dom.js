@@ -1,1 +1,45 @@
-document.addEventListener("DOMContentLoaded",(()=>{if(!navigator.serviceWorker?.controller)return;const e=e=>{const t=e.endsWith("js")?"script":"link",o="link"===t?"href":"src";for(let r of document.getElementsByTagName(t)){const n=r[o];if(e.length>n?e.endsWith(n):n.endsWith(e)){const e=document.createElement(t),o=r.text||r.textContent||r.innerHTML||"";return Array.from(r.attributes).forEach((t=>e.setAttribute(t.name,t.value))),e.appendChild(document.createTextNode(o)),r.parentNode.replaceChildren(e,r),!0}}},t="updated";var o;sessionStorage.getItem(t)?sessionStorage.removeItem(t):(o="update",navigator.serviceWorker.controller.postMessage(o)),navigator.serviceWorker.addEventListener("message",(o=>{const r=o.data;sessionStorage.setItem(t,r.type);const n=r.list?.filter((e=>/\.(js|css)$/.test(e)));if(n)window.Pjax?.isSupported?.()&&n.forEach(e),location.reload();else{const e=r.new,o=r.old;o&&(e.global!==o.global||(e.local,o.local)),sessionStorage.removeItem(t)}}))}));
+document.addEventListener('DOMContentLoaded', () => {
+    if (!navigator.serviceWorker?.controller) return
+    /** 发送信息到 sw */
+    const postMessage2SW = type => navigator.serviceWorker.controller.postMessage(type)
+    const pjaxUpdate = url => {
+        const type = url.endsWith('js') ? 'script' : 'link'
+        const name = type === 'link' ? 'href' : 'src'
+        for (let item of document.getElementsByTagName(type)) {
+            const itUrl = item[name]
+            if (url.length > itUrl ? url.endsWith(itUrl) : itUrl.endsWith(url)) {
+                const newEle = document.createElement(type)
+                const content = item.text || item.textContent || item.innerHTML || ''
+                // noinspection JSUnresolvedReference
+                Array.from(item.attributes).forEach(attr => newEle.setAttribute(attr.name, attr.value))
+                newEle.appendChild(document.createTextNode(content))
+                item.parentNode.replaceChildren(newEle, item)
+                return true
+            }
+        }
+    }
+    const SESSION_KEY = 'updated'
+    // noinspection JSFileReferences
+    const onSuccess = () => {}
+    if (sessionStorage.getItem(SESSION_KEY)) {
+        onSuccess()
+        sessionStorage.removeItem(SESSION_KEY)
+    } else postMessage2SW('update')
+    navigator.serviceWorker.addEventListener('message', event => {
+        const data = event.data
+        sessionStorage.setItem(SESSION_KEY, data.type)
+        const list = data.list?.filter(url => /\.(js|css)$/.test(url))
+        if (list) {
+            // noinspection JSUnresolvedReference
+            if (window.Pjax?.isSupported?.())
+                list.forEach(pjaxUpdate)
+            location.reload()
+        } else {
+            const newVersion = data.new, oldVersion = data.old
+            if (oldVersion && (newVersion.global !== oldVersion.global || newVersion.local !== oldVersion.local)) {
+                onSuccess()
+            }
+            sessionStorage.removeItem(SESSION_KEY)
+        }
+    })
+})
