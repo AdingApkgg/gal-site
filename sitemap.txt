@@ -1,7 +1,8 @@
+https://gal.saop.cc/p/33961/
+https://gal.saop.cc/links/
 https://gal.saop.cc/about/
 https://gal.saop.cc/p/announcement/
 https://gal.saop.cc/donate/
-https://gal.saop.cc/links/
 https://gal.saop.cc/ad/
 https://gal.saop.cc/p/33562/
 https://gal.saop.cc/p/24262/
@@ -435,6 +436,7 @@ https://gal.saop.cc/tags/Overflow/
 https://gal.saop.cc/tags/Rosebleu/
 https://gal.saop.cc/tags/Us-track/
 https://gal.saop.cc/tags/%E3%82%82%E3%81%BF%E3%82%82%E3%81%BF%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA/
+https://gal.saop.cc/tags/AliceSoft/
 https://gal.saop.cc/tags/Black-Cyc/
 https://gal.saop.cc/tags/FrontWing/
 https://gal.saop.cc/tags/MARMALADE/
@@ -460,8 +462,8 @@ https://gal.saop.cc/categories/Windows/
 https://gal.saop.cc/categories/ONS/
 https://gal.saop.cc/categories/KRKR/
 https://gal.saop.cc/categories/Android/
-https://gal.saop.cc/categories/Tyranor/
 https://gal.saop.cc/categories/Other/
+https://gal.saop.cc/categories/Tyranor/
 https://gal.saop.cc/categories/PSP/
 https://gal.saop.cc/categories/macOS/
 https://gal.saop.cc/categories/Linux/
