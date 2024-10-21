@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gal.saop.cc/p/26677/</loc>
+    
+    <lastmod>2024-10-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/p/56843/</loc>
     
     <lastmod>2024-10-21</lastmod>
@@ -1803,6 +1812,13 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/tags/%E6%AC%A2%E4%B9%90/</loc>
+    <lastmod>2024-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/tags/%E6%AD%A3%E5%89%A7/</loc>
     <lastmod>2024-10-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -1930,6 +1946,13 @@
   
   <url>
     <loc>https://gal.saop.cc/tags/%E7%8C%AB%E5%A8%98/</loc>
+    <lastmod>2024-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E7%8E%8B%E9%81%93/</loc>
     <lastmod>2024-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2686,6 +2709,48 @@
   
   <url>
     <loc>https://gal.saop.cc/tags/%E9%BB%92%E9%B3%A5%E7%A4%BE/</loc>
+    <lastmod>2024-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/1989/</loc>
+    <lastmod>2024-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/1990/</loc>
+    <lastmod>2024-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/1991/</loc>
+    <lastmod>2024-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/1993/</loc>
+    <lastmod>2024-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/1995/</loc>
+    <lastmod>2024-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/1996/</loc>
     <lastmod>2024-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
