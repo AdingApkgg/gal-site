@@ -4,7 +4,16 @@
   <url>
     <loc>https://gal.saop.cc/p/announcement/</loc>
     
-    <lastmod>2024-11-06</lastmod>
+    <lastmod>2024-11-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/about/</loc>
+    
+    <lastmod>2024-11-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -203,15 +212,6 @@
     <loc>https://gal.saop.cc/p/33961/</loc>
     
     <lastmod>2024-10-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/about/</loc>
-    
-    <lastmod>2024-10-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
