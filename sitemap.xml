@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://gal.saop.cc/p/10953/</loc>
+    <loc>https://gal.saop.cc/p/36858/</loc>
     
-    <lastmod>2024-11-14</lastmod>
+    <lastmod>2024-11-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +13,34 @@
   <url>
     <loc>https://gal.saop.cc/p/61936/</loc>
     
-    <lastmod>2024-11-14</lastmod>
+    <lastmod>2024-11-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/p/59607/</loc>
+    
+    <lastmod>2024-11-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/p/10953/</loc>
+    
+    <lastmod>2024-11-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/p/42853/</loc>
+    
+    <lastmod>2024-11-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -659,15 +686,6 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/p/59607/</loc>
-    
-    <lastmod>2024-07-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://gal.saop.cc/p/37056/</loc>
     
     <lastmod>2024-07-29</lastmod>
@@ -686,7 +704,7 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/p/13818/</loc>
+    <loc>https://gal.saop.cc/p/27018/</loc>
     
     <lastmod>2024-07-16</lastmod>
     
@@ -695,9 +713,9 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/p/27018/</loc>
+    <loc>https://gal.saop.cc/p/13818/</loc>
     
-    <lastmod>2024-07-10</lastmod>
+    <lastmod>2024-07-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -869,24 +887,6 @@
     <loc>https://gal.saop.cc/p/63990/</loc>
     
     <lastmod>2024-05-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/p/36858/</loc>
-    
-    <lastmod>2024-05-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/p/42853/</loc>
-    
-    <lastmod>2024-05-02</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2843,13 +2843,6 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/categories/Tyranor/</loc>
-    <lastmod>2024-11-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gal.saop.cc/categories/ONS/</loc>
     <lastmod>2024-11-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -2864,7 +2857,7 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/categories/Android/</loc>
+    <loc>https://gal.saop.cc/categories/Tyranor/</loc>
     <lastmod>2024-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2872,6 +2865,13 @@
   
   <url>
     <loc>https://gal.saop.cc/categories/Other/</loc>
+    <lastmod>2024-11-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/categories/Android/</loc>
     <lastmod>2024-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
