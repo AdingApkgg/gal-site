@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gal.saop.cc/p/55333/</loc>
+    
+    <lastmod>2024-11-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/p/4883/</loc>
+    
+    <lastmod>2024-11-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/donate/</loc>
     
     <lastmod>2024-11-18</lastmod>
@@ -444,24 +462,6 @@
   
   <url>
     <loc>https://gal.saop.cc/p/7342/</loc>
-    
-    <lastmod>2024-09-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/p/55333/</loc>
-    
-    <lastmod>2024-09-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/p/4883/</loc>
     
     <lastmod>2024-09-17</lastmod>
     
@@ -2882,14 +2882,14 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/categories/Tyranor/</loc>
+    <loc>https://gal.saop.cc/categories/ONS/</loc>
     <lastmod>2024-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/categories/ONS/</loc>
+    <loc>https://gal.saop.cc/categories/Tyranor/</loc>
     <lastmod>2024-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
