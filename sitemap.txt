@@ -1,3 +1,4 @@
+https://gal.saop.cc/p/announcement/
 https://gal.saop.cc/p/2506/
 https://gal.saop.cc/p/37037/
 https://gal.saop.cc/links/
@@ -13,7 +14,6 @@ https://gal.saop.cc/p/59607/
 https://gal.saop.cc/p/10953/
 https://gal.saop.cc/p/42853/
 https://gal.saop.cc/p/55827/
-https://gal.saop.cc/p/announcement/
 https://gal.saop.cc/about/
 https://gal.saop.cc/p/25735/
 https://gal.saop.cc/p/46515/
@@ -376,8 +376,8 @@ https://gal.saop.cc/categories/Windows/
 https://gal.saop.cc/categories/KRKR/
 https://gal.saop.cc/categories/ONS/
 https://gal.saop.cc/categories/Tyranor/
-https://gal.saop.cc/categories/Android/
 https://gal.saop.cc/categories/Other/
+https://gal.saop.cc/categories/Android/
 https://gal.saop.cc/categories/PSP/
 https://gal.saop.cc/categories/macOS/
 https://gal.saop.cc/categories/Linux/
