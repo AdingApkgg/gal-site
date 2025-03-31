@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gal.saop.cc/p/10501/</loc>
+    
+    <lastmod>2025-03-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/p/39164/</loc>
     
     <lastmod>2025-03-22</lastmod>
@@ -2669,13 +2678,6 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/tags/%E3%82%8B%E3%81%B3%E6%A7%98%E3%82%92%E5%B4%87%E3%82%81%E3%82%8B%E4%BC%9A/</loc>
-    <lastmod>2025-03-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gal.saop.cc/tags/AliceSoft/</loc>
     <lastmod>2025-03-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -2872,6 +2874,13 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/tags/SAGA-PLANETS%EF%BC%8FSP%E7%A4%BE/</loc>
+    <lastmod>2025-03-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/tags/Us-track%EF%BC%8F%E3%83%A6%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF/</loc>
     <lastmod>2025-03-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -3007,14 +3016,7 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/categories/ONS/</loc>
-    <lastmod>2025-03-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/categories/KRKR/</loc>
+    <loc>https://gal.saop.cc/categories/Tyranor/</loc>
     <lastmod>2025-03-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3028,7 +3030,14 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/categories/Tyranor/</loc>
+    <loc>https://gal.saop.cc/categories/KRKR/</loc>
+    <lastmod>2025-03-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/categories/ONS/</loc>
     <lastmod>2025-03-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
