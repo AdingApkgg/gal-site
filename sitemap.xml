@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gal.saop.cc/ad/</loc>
+    
+    <lastmod>2025-06-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/live/</loc>
     
     <lastmod>2025-06-24</lastmod>
@@ -14,15 +23,6 @@
     <loc>https://gal.saop.cc/p/announcement/</loc>
     
     <lastmod>2025-05-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/ad/</loc>
-    
-    <lastmod>2025-05-17</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -3025,7 +3025,7 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/categories/Tyranor/</loc>
+    <loc>https://gal.saop.cc/categories/KRKR/</loc>
     <lastmod>2025-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3046,7 +3046,7 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/categories/KRKR/</loc>
+    <loc>https://gal.saop.cc/categories/Tyranor/</loc>
     <lastmod>2025-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
