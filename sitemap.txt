@@ -1,3 +1,4 @@
+https://gal.saop.cc/links/
 https://gal.saop.cc/ad/
 https://gal.saop.cc/live/
 https://gal.saop.cc/p/announcement/
@@ -9,7 +10,6 @@ https://gal.saop.cc/p/41666/
 https://gal.saop.cc/p/9797/
 https://gal.saop.cc/p/46383/
 https://gal.saop.cc/p/18065/
-https://gal.saop.cc/links/
 https://gal.saop.cc/p/52145/
 https://gal.saop.cc/p/37056/
 https://gal.saop.cc/donate/
@@ -389,8 +389,8 @@ https://gal.saop.cc/tags/Nitro-%EF%BC%8FNITRO-PLUS%EF%BC%8F%E3%83%8B%E3%83%88%E3
 https://gal.saop.cc/categories/Windows/
 https://gal.saop.cc/categories/KRKR/
 https://gal.saop.cc/categories/Android/
-https://gal.saop.cc/categories/ONS/
 https://gal.saop.cc/categories/Tyranor/
+https://gal.saop.cc/categories/ONS/
 https://gal.saop.cc/categories/Other/
 https://gal.saop.cc/categories/PSP/
 https://gal.saop.cc/categories/macOS/
