@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gal.saop.cc/p/23605/</loc>
+    
+    <lastmod>2025-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/p/39994/</loc>
+    
+    <lastmod>2025-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/p/855/</loc>
     
     <lastmod>2025-10-05</lastmod>
@@ -1046,7 +1064,7 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/p/38627/</loc>
+    <loc>https://gal.saop.cc/p/3699/</loc>
     
     <lastmod>2024-05-10</lastmod>
     
@@ -1055,7 +1073,7 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/p/3699/</loc>
+    <loc>https://gal.saop.cc/p/38627/</loc>
     
     <lastmod>2024-05-10</lastmod>
     
@@ -1464,76 +1482,6 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/tags/%E8%84%B3%E5%86%85%E5%BD%BC%E5%A5%B3%EF%BC%8F%E8%84%91%E5%86%85%E5%BD%BC%E5%A5%B3/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E4%BC%AA%E5%A8%98/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E5%8D%81%E4%BA%8C%E7%A5%9E%E5%99%A8/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E7%94%B7%E3%81%AE%E5%A8%98/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E5%A5%B3%E8%A3%85/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E5%B7%AB%E5%A5%B3/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E8%B6%B3%E4%BA%A4/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E5%90%8E%E5%AE%AB/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/2011/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/2021/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gal.saop.cc/tags/Palette%EF%BC%8F%E8%B0%83%E8%89%B2%E6%9D%BF%EF%BC%8F%E3%81%B1%E3%82%8C%E3%81%A3%E3%81%A8/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -1660,7 +1608,126 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/tags/2021/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/tags/2022/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E8%84%B3%E5%86%85%E5%BD%BC%E5%A5%B3%EF%BC%8F%E8%84%91%E5%86%85%E5%BD%BC%E5%A5%B3/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E4%BC%AA%E5%A8%98/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E5%8D%81%E4%BA%8C%E7%A5%9E%E5%99%A8/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E7%94%B7%E3%81%AE%E5%A8%98/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E5%A5%B3%E8%A3%85/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E5%B7%AB%E5%A5%B3/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E8%B6%B3%E4%BA%A4/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E5%90%8E%E5%AE%AB/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/2011/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/Liar-soft%EF%BC%8F%E9%AA%97%E5%AD%90%E7%A4%BE/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E7%AB%A5%E8%AF%9D/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E5%B9%BC%E9%A9%AF%E6%9F%93/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E8%90%9D%E8%8E%89/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E6%84%9F%E5%8A%A8/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E6%82%AC%E7%96%91/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E6%B2%BB%E6%84%88/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1688,20 +1755,6 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/tags/%E6%82%AC%E7%96%91/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E5%B9%BC%E9%A9%AF%E6%9F%93/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gal.saop.cc/tags/%E4%B8%AD%E4%BA%8C/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -1717,48 +1770,6 @@
   
   <url>
     <loc>https://gal.saop.cc/tags/2004/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/Liar-soft%EF%BC%8F%E9%AA%97%E5%AD%90%E7%A4%BE/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E7%AB%A5%E8%AF%9D/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E8%90%9D%E8%8E%89/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E6%84%9F%E5%8A%A8/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E6%B2%BB%E6%84%88/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/Aino-Links/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1842,6 +1853,13 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/tags/Aino-Links/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/tags/%E6%B5%B7%E8%B1%B9%E7%A4%BE%EF%BC%8F%E3%81%82%E3%81%96%E3%82%89%E3%81%97%E3%81%9D%E3%81%B5%E3%81%A8/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -1857,13 +1875,6 @@
   
   <url>
     <loc>https://gal.saop.cc/tags/2014/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E7%86%9F%E5%A5%B3/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1919,6 +1930,13 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/tags/%E7%86%9F%E5%A5%B3/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/tags/%E7%88%B1%E6%83%85/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -1934,27 +1952,6 @@
   
   <url>
     <loc>https://gal.saop.cc/tags/2023/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/Purple-software%EF%BC%8F%E7%B4%AB%E7%A4%BE/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E6%97%A0%E4%BF%AE%E6%AD%A3/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/2024/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1989,6 +1986,55 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/tags/Lump-of-Sugar%EF%BC%8F%E6%96%B9%E7%B3%96%E7%A4%BE/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E4%B9%89%E5%A6%B9/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E5%85%BD%E8%80%B3/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E7%99%BD%E6%AF%9B/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/Purple-software%EF%BC%8F%E7%B4%AB%E7%A4%BE/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E6%97%A0%E4%BF%AE%E6%AD%A3/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/2024/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/tags/%E5%8A%A8%E4%BD%9C/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -2011,41 +2057,6 @@
   
   <url>
     <loc>https://gal.saop.cc/tags/%E5%A4%A9%E4%BD%BF/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/sprite%EF%BC%8F%E9%9B%AA%E7%A2%A7%E7%A4%BE%EF%BC%8F%E7%B2%BE%E7%81%B5%E7%A4%BE%EF%BC%8F%E5%86%B7%E9%A5%AD%E7%A4%BE%EF%BC%8F%E8%8B%8D%E5%BD%BC%E7%A4%BE/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E9%9D%92%E6%98%A5/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E7%8E%8B%E9%81%93/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E7%AB%9E%E6%8A%80/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E8%BF%90%E5%8A%A8/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2115,13 +2126,6 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/tags/%E7%99%BD%E6%AF%9B/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gal.saop.cc/tags/%CF%89star%EF%BC%8F%E3%82%AA%E3%83%A1%E3%82%AC%E3%82%B9%E3%82%BF%E3%83%BC/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -2150,6 +2154,48 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/tags/%E6%B0%91%E4%BF%97/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/sprite%EF%BC%8F%E9%9B%AA%E7%A2%A7%E7%A4%BE%EF%BC%8F%E7%B2%BE%E7%81%B5%E7%A4%BE%EF%BC%8F%E5%86%B7%E9%A5%AD%E7%A4%BE%EF%BC%8F%E8%8B%8D%E5%BD%BC%E7%A4%BE/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E9%9D%92%E6%98%A5/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E7%8E%8B%E9%81%93/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E7%AB%9E%E6%8A%80/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E8%BF%90%E5%8A%A8/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/tags/%E5%A5%B3%E4%BB%86/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -2165,6 +2211,34 @@
   
   <url>
     <loc>https://gal.saop.cc/tags/%E7%A7%91%E5%B9%BB/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E5%B9%B4%E4%B8%8A/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/elf%EF%BC%8F%E3%82%A8%E3%83%AB%E3%83%95/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/NTR/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/2008/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2227,48 +2301,6 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/tags/%E6%B0%91%E4%BF%97/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E5%B9%B4%E4%B8%8A/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/elf%EF%BC%8F%E3%82%A8%E3%83%AB%E3%83%95/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/NTR/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/2008/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E6%B8%A9%E9%A6%A8/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gal.saop.cc/tags/Nitro-%EF%BC%8FNITRO-PLUS%EF%BC%8F%E3%83%8B%E3%83%88%E3%83%AD%E3%83%97%E3%83%A9%E3%82%B9%EF%BC%8Fn-%EF%BC%8F%E6%B0%AE%E6%AD%A3/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -2297,35 +2329,7 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/tags/ALcot/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E5%8F%8C%E5%AD%90/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E4%B9%89%E5%A6%B9/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/Rosebleu/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E6%8E%A8%E5%9C%9F%E6%9C%BA/</loc>
+    <loc>https://gal.saop.cc/tags/%E6%B8%A9%E9%A6%A8/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2367,21 +2371,14 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/tags/CLOCKUP%EF%BC%8F%E9%92%9F%E8%A1%A8%E7%A4%BE/</loc>
+    <loc>https://gal.saop.cc/tags/ALcot/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/tags/%E5%92%8C%E6%B3%89%E4%B8%87%E5%A4%9C/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/AUGUST%EF%BC%8F%E5%85%AB%E6%9C%88%E7%A4%BE/</loc>
+    <loc>https://gal.saop.cc/tags/%E5%8F%8C%E5%AD%90/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2396,6 +2393,41 @@
   
   <url>
     <loc>https://gal.saop.cc/tags/%E6%AC%A2%E4%B9%90/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/AUGUST%EF%BC%8F%E5%85%AB%E6%9C%88%E7%A4%BE/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/CLOCKUP%EF%BC%8F%E9%92%9F%E8%A1%A8%E7%A4%BE/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E5%92%8C%E6%B3%89%E4%B8%87%E5%A4%9C/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/Rosebleu/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E6%8E%A8%E5%9C%9F%E6%9C%BA/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2479,14 +2511,14 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/tags/orcsoft/</loc>
+    <loc>https://gal.saop.cc/tags/%E7%A5%9E%E7%A7%98/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/tags/%E7%A5%9E%E7%A7%98/</loc>
+    <loc>https://gal.saop.cc/tags/orcsoft/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2522,41 +2554,6 @@
   
   <url>
     <loc>https://gal.saop.cc/tags/SAGA-PLANETS%EF%BC%8FSP%E7%A4%BE/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/07th-Expansion%EF%BC%8F%E3%82%BB%E3%83%96%E3%83%B3%E3%82%B9-%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%91%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E6%B3%A3/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/2007/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E8%89%B9%E7%8C%AB/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E5%B9%BC%E5%A5%B3/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2626,6 +2623,41 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/tags/%E8%89%B9%E7%8C%AB/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E5%B9%BC%E5%A5%B3/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/07th-Expansion%EF%BC%8F%E3%82%BB%E3%83%96%E3%83%B3%E3%82%B9-%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%91%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E6%B3%A3/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/2007/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/tags/%E7%BB%98%E6%81%8B%E5%88%B6%E4%BD%9C%E7%BB%84/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -2647,7 +2679,14 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/tags/%E5%A6%B9%E7%B3%BB/</loc>
+    <loc>https://gal.saop.cc/tags/%E9%9B%AA%E5%A5%B3/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E7%A9%BF%E8%B6%8A/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2655,20 +2694,6 @@
   
   <url>
     <loc>https://gal.saop.cc/tags/Shiratamaco%EF%BC%8F%E3%82%B5%E3%83%BC%E3%82%AF%E3%83%AB%E3%81%97%E3%82%89%E3%81%9F%E3%81%BE%E3%81%93%EF%BC%8F%E7%99%BD%E7%8E%89%E7%A4%BE/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E5%85%BD%E8%80%B3/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E9%9B%AA%E5%A5%B3/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2703,7 +2728,14 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/tags/%E7%A9%BF%E8%B6%8A/</loc>
+    <loc>https://gal.saop.cc/tags/UGUISU-KAGURA%EF%BC%8F%E3%82%A6%E3%82%B0%E3%82%A4%E3%82%B9%E3%82%AB%E3%82%B0%E3%83%A9%EF%BC%8F%E8%8E%BA%E7%A5%9E%E4%B9%90%EF%BC%8F%E7%BA%B8%E9%AD%94%E7%A4%BE/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E5%A6%B9%E7%B3%BB/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2724,6 +2756,20 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/tags/SWEET-TEA%EF%BC%8F%E7%94%9C%E8%8C%B6/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/nostalgia/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/tags/Us-track%EF%BC%8F%E3%83%A6%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -2731,14 +2777,7 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/tags/UGUISU-KAGURA%EF%BC%8F%E3%82%A6%E3%82%B0%E3%82%A4%E3%82%B9%E3%82%AB%E3%82%B0%E3%83%A9%EF%BC%8F%E8%8E%BA%E7%A5%9E%E4%B9%90%EF%BC%8F%E7%BA%B8%E9%AD%94%E7%A4%BE/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/SWEET-TEA%EF%BC%8F%E7%94%9C%E8%8C%B6/</loc>
+    <loc>https://gal.saop.cc/tags/%E5%A4%9C%E3%81%AE%E3%81%B2%E3%81%A4%E3%81%98%EF%BC%8F%E5%A4%9C%E7%BE%8A%E7%A4%BE%EF%BC%8F%E8%90%9D%E8%8E%89%E7%A4%BE/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2759,20 +2798,6 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/tags/%E5%A4%9C%E3%81%AE%E3%81%B2%E3%81%A4%E3%81%98%EF%BC%8F%E5%A4%9C%E7%BE%8A%E7%A4%BE%EF%BC%8F%E8%90%9D%E8%8E%89%E7%A4%BE/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/nostalgia/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gal.saop.cc/tags/LIFE0/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -2787,13 +2812,6 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/tags/Lose%EF%BC%8FLost%EF%BC%8F%E8%90%9D%E8%8E%89%E7%A4%BE/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gal.saop.cc/tags/%E9%AD%94%E6%B3%95/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -2801,7 +2819,21 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/tags/Lose%EF%BC%8FLost%EF%BC%8F%E8%90%9D%E8%8E%89%E7%A4%BE/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/tags/SMEE/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E5%85%84%E6%8E%A7/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2816,13 +2848,6 @@
   
   <url>
     <loc>https://gal.saop.cc/tags/%E5%B0%91%E5%A5%B3/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/age%EF%BC%8F%E3%82%A2%E3%83%BC%E3%82%B8%E3%83%A5%EF%BC%8FAge/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2850,7 +2875,14 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/tags/%E5%85%84%E6%8E%A7/</loc>
+    <loc>https://gal.saop.cc/tags/age%EF%BC%8F%E3%82%A2%E3%83%BC%E3%82%B8%E3%83%A5%EF%BC%8FAge/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/2003/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2858,13 +2890,6 @@
   
   <url>
     <loc>https://gal.saop.cc/tags/%E6%89%B6%E5%A5%B9/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/NEKO-WORKs/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2892,14 +2917,7 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/tags/2003/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/MAGES/</loc>
+    <loc>https://gal.saop.cc/tags/NEKO-WORKs/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2913,7 +2931,35 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/tags/MAGES/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/tags/Navel%EF%BC%8F%E3%83%8D%E3%83%BC%E3%83%96%E3%83%AB%EF%BC%8F%E6%A9%98%E5%AD%90%E7%A4%BE%EF%BC%8F%E8%BF%91%E6%9C%88%E7%A4%BE%EF%BC%8F%E8%87%8D%E6%A9%99%E7%A4%BE/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E3%82%B9%E3%83%9F%E3%83%AC%EF%BC%8FSmile/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/%E9%AD%94%E5%A5%B3/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/Ricotta%EF%BC%8F%E5%A5%B6%E9%85%AA%E7%A4%BE/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2962,27 +3008,6 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/tags/Ricotta%EF%BC%8F%E5%A5%B6%E9%85%AA%E7%A4%BE/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E3%82%B9%E3%83%9F%E3%83%AC%EF%BC%8FSmile/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/%E9%AD%94%E5%A5%B3/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gal.saop.cc/tags/Yuzu-Soft%EF%BC%8F%E6%9F%9A%E5%AD%90%E7%A4%BE/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -2991,13 +3016,6 @@
   
   <url>
     <loc>https://gal.saop.cc/tags/%E8%B6%85%E8%83%BD%E5%8A%9B/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/Recette/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3018,7 +3036,21 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/tags/Recette/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/tags/%E8%89%BA%E6%9C%AF/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/FAVORITE%EF%BC%8F%E3%83%95%E3%82%A7%E3%82%A4%E3%83%90%E3%83%AA%E3%83%83%E3%83%88%EF%BC%8FF%E7%A4%BE%EF%BC%8F%E7%9C%9F%E7%BA%A2%E7%A4%BE/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3039,13 +3071,6 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/tags/FAVORITE%EF%BC%8F%E3%83%95%E3%82%A7%E3%82%A4%E3%83%90%E3%83%AA%E3%83%83%E3%83%88%EF%BC%8FF%E7%A4%BE%EF%BC%8F%E7%9C%9F%E7%BA%A2%E7%A4%BE/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gal.saop.cc/tags/Underground-Campaign/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -3060,21 +3085,7 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/tags/%E6%9C%AB%E4%B8%96/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gal.saop.cc/tags/KeroQ%EF%BC%8F%E3%82%B1%E3%83%ADQ/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gal.saop.cc/tags/FreakilyCharming/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3095,6 +3106,20 @@
   </url>
   
   <url>
+    <loc>https://gal.saop.cc/tags/%E6%9C%AB%E4%B8%96/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/FreakilyCharming/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gal.saop.cc/tags/Sister-Position/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -3103,6 +3128,13 @@
   
   <url>
     <loc>https://gal.saop.cc/tags/Whisp/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gal.saop.cc/tags/SEACOXX/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3122,13 +3154,6 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://gal.saop.cc/tags/SEACOXX/</loc>
-    <lastmod>2025-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
@@ -3139,7 +3164,7 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/categories/ONS/</loc>
+    <loc>https://gal.saop.cc/categories/Tyranor/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3153,7 +3178,7 @@
   </url>
   
   <url>
-    <loc>https://gal.saop.cc/categories/Tyranor/</loc>
+    <loc>https://gal.saop.cc/categories/ONS/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
